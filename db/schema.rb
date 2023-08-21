@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_21_163224) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_21_174540) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "breweries", force: :cascade do |t|
     t.string "brewery_name"
-    t.string "type"
+    t.string "type_of_brewery"
     t.string "address"
     t.string "website"
     t.string "state"
